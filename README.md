@@ -44,7 +44,31 @@ process.php
 
 ## 📸 Screenshots
 
-(We'll add these in the next step.)
+### Registration Form
+
+![Registration Form](screenshots/registration-request.png)
+
+### Successful Registration
+
+![Successful Registration](screenshots/successful-registration.png)
+
+### Search Student by ID
+
+![Search Student](screenshots/search-by-id.png)
+
+### Database Structure
+
+![Database Structure](screenshots/database-structure.png)
+
+### Successful Update
+
+![Successful Update](screenshots/successful-update.png)
+
+### Deleted Record
+
+![Deleted Record](screenshots/deleted-record.png)
+
+
 
 ## 👨‍💻 Author
 
