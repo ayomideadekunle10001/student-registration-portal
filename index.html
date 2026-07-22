@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Book Borrowing Portal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Library Book Borrowing Portal</h2>
+        
+        <form action="process.php" method="GET" style="margin-bottom: 25px; padding: 10px; background: #eee;">
+            <strong>Search Request / Manage Operations:</strong><br><br>
+            Enter Borrow ID: <input type="text" name="search_id" placeholder="e.g. LIB-2025002170-CYB" style="width:70%;">
+            <input type="submit" value="Search">
+        </form>
+        <hr>
+
+        <form action="process.php" method="POST">
+            <input type="hidden" name="action" value="create">
+            
+            <div class="form-group">
+                <label>Student Full Name:</label>
+                <input type="text" name="name">
+            </div>
+            
+            <div class="form-group">
+                <label>Matric Number:</label>
+                <input type="text" name="matric">
+            </div>
+            
+            <div class="form-group">
+                <label>Department:</label>
+                <input type="text" name="department">
+            </div>
+            
+            <div class="form-group">
+                <label>Level:</label>
+                <select name="level">
+                    <option value="">-- Select Level --</option>
+                    <option value="100">100 Level</option>
+                    <option value="200">200 Level</option>
+                    <option value="300">300 Level</option>
+                    <option value="400">400 Level</option>
+                    <option value="500">500 Level</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Email Address:</label>
+                <input type="text" name="email">
+            </div>
+            
+            <div class="form-group">
+                <label>Phone Number:</label>
+                <input type="text" name="phone">
+            </div>
+            
+            <div class="form-group">
+                <label>Book Title:</label>
+                <input type="text" name="book_title">
+            </div>
+            
+            <div class="form-group">
+                <label>Book Code:</label>
+                <input type="text" name="book_code">
+            </div>
+            
+            <div class="form-group">
+                <label>Book Category:</label>
+                <select name="book_category">
+                    <option value="">-- Select Category --</option>
+                    <option value="Programming">Programming</option>
+                    <option value="Cybersecurity">Cybersecurity</option>
+                    <option value="Database Systems">Database Systems</option>
+                    <option value="Networking">Networking</option>
+                    <option value="Artificial Intelligence">Artificial Intelligence</option>
+                    <option value="General Studies">General Studies</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Borrow Duration (In Days):</label>
+                <input type="text" name="duration">
+            </div>
+            
+            <div class="form-group">
+                <label>Preferred Pickup Mode:</label>
+                <input type="radio" name="pickup_mode" value="Physical Pickup"> Physical Pickup<br>
+                <input type="radio" name="pickup_mode" value="Department Delivery"> Department Delivery<br>
+                <input type="radio" name="pickup_mode" value="Library Desk Collection"> Library Desk Collection
+            </div>
+            
+            <div class="form-group">
+                <label>Library Services Needed (Select 2 or more):</label>
+                <input type="checkbox" name="services[]" value="Reading Space"> Reading Space<br>
+                <input type="checkbox" name="services[]" value="Book Reservation"> Book Reservation<br>
+                <input type="checkbox" name="services[]" value="Photocopy Support"> Photocopy Support<br>
+                <input type="checkbox" name="services[]" value="Research Assistance"> Research Assistance<br>
+                <input type="checkbox" name="services[]" value="Past Question Access"> Past Question Access<br>
+                <input type="checkbox" name="services[]" value="Digital Material Access"> Digital Material Access
+            </div>
+            
+            <input type="submit" value="Submit Borrowing Request">
+        </form>
+    </div>
+</body>
+</html>

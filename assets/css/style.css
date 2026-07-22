@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.container {
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"], select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.error-box {
+    background-color: #fdd;
+    color: #900;
+    padding: 10px;
+    border: 1px solid #fcc;
+    margin-bottom: 15px;
+}
+.success-box {
+    background-color: #dfd;
+    color: #060;
+    padding: 10px;
+    border: 1px solid #cfc;
+    margin-bottom: 15px;
+}
