@@ -41,34 +41,31 @@ process.php
 2. Import `database.sql`
 3. Start Apache & MySQL in XAMPP
 4. Open `index.html`
-
 ## 📸 Screenshots
 
 ### Registration Form
 
-![Registration Form](screenshots/registration-request.png)
+![Registration Form](screenshot/registration-request.png)
 
 ### Successful Registration
 
-![Successful Registration](screenshots/successful-registration.png)
+![Successful Registration](screenshot/successful-registration.png)
 
 ### Search Student by ID
 
-![Search Student](screenshots/search-by-id.png)
+![Search Student](screenshot/search-by-id.png)
 
 ### Database Structure
 
-![Database Structure](screenshots/database-structure.png)
+![Database Structure](screenshot/database-structure.png)
 
 ### Successful Update
 
-![Successful Update](screenshots/successful-update.png)
+![Successful Update](screenshot/successful-update.png)
 
 ### Deleted Record
 
-![Deleted Record](screenshots/deleted-record.png)
-
-
+![Deleted Record](screenshot/deleted-record.png)
 
 ## 👨‍💻 Author
 
