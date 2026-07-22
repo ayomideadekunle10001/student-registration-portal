@@ -69,6 +69,23 @@ process.php
 
 ## 👨‍💻 Author
 
+## 🔒 Security Features
+
+### Current Security Measures
+- Server-side form processing using PHP
+- Input validation for user-submitted data
+- Separate database configuration file
+- Structured project organization
+
+### Planned Security Improvements
+- Use prepared statements (PDO/MySQLi) to prevent SQL injection
+- Hash passwords with `password_hash()`
+- Verify passwords with `password_verify()`
+- Add CSRF protection for forms
+- Implement session-based authentication
+- Add role-based access control (RBAC)
+- Improve input sanitization and output escaping
+
 Ayomide Adekunle
 
 Cybersecurity Student
